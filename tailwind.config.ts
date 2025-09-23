@@ -57,6 +57,26 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // DevOps Tech Colors
+        tech: {
+          aws: "hsl(var(--tech-aws))",
+          docker: "hsl(var(--tech-docker))",
+          kubernetes: "hsl(var(--tech-kubernetes))",
+          terraform: "hsl(var(--tech-terraform))",
+          python: "hsl(var(--tech-python))",
+          success: "hsl(var(--tech-success))",
+        },
+      },
+      backgroundImage: {
+        'gradient-hero': 'var(--gradient-hero)',
+        'gradient-card': 'var(--gradient-card)',
+        'gradient-accent': 'var(--gradient-accent)',
+        'gradient-tech': 'var(--gradient-tech)',
+      },
+      boxShadow: {
+        'elevation': 'var(--shadow-elevation)',
+        'glow': 'var(--shadow-glow)',
+        'card': 'var(--shadow-card)',
       },
       borderRadius: {
         lg: "var(--radius)",
