@@ -10,8 +10,7 @@ const Projects = () => {
       metrics: "60% faster deployments",
       icon: <Clock className="w-6 h-6" />,
       color: "tech-success",
-      github: "https://github.com/yourusername/cicd-pipeline",
-      demo: "https://demo-link.com"
+      
     },
     {
       title: "AWS Infrastructure Hardening",
@@ -20,8 +19,7 @@ const Projects = () => {
       metrics: "99.9% uptime achieved",
       icon: <Shield className="w-6 h-6" />,
       color: "tech-terraform",
-      github: "https://github.com/yourusername/aws-infrastructure",
-      demo: "https://demo-link.com"
+      
     },
     {
       title: "Kubernetes Monitoring Stack",
@@ -30,8 +28,7 @@ const Projects = () => {
       metrics: "40% faster incident response",
       icon: <TrendingUp className="w-6 h-6" />,
       color: "tech-docker",
-      github: "https://github.com/yourusername/k8s-monitoring",
-      demo: "https://demo-link.com"
+      
     }
   ];
 
@@ -88,44 +85,8 @@ const Projects = () => {
                   </span>
                 ))}
               </div>
-
-              {/* Action Buttons */}
-              <div className="flex gap-3">
-                <Button 
-                  variant="outline" 
-                  size="sm" 
-                  className="flex-1"
-                  asChild
-                >
-                  <a href={project.github} target="_blank" rel="noopener noreferrer">
-                    <Github className="w-4 h-4" />
-                    Code
-                  </a>
-                </Button>
-                <Button 
-                  variant="secondary" 
-                  size="sm" 
-                  className="flex-1"
-                  asChild
-                >
-                  <a href={project.demo} target="_blank" rel="noopener noreferrer">
-                    <ExternalLink className="w-4 h-4" />
-                    Demo
-                  </a>
-                </Button>
-              </div>
             </div>
           ))}
-        </div>
-
-        {/* View More Projects */}
-        <div className="text-center mt-12 fade-in">
-          <Button variant="tech" size="lg" asChild>
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
-              <Github className="w-5 h-5" />
-              View All Projects on GitHub
-            </a>
-          </Button>
         </div>
       </div>
     </section>

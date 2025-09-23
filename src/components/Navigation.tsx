@@ -41,7 +41,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex items-center">
             <div className="text-xl font-bold bg-gradient-tech bg-clip-text text-transparent">
-              DevOps.Engineer
+              DevOps Engineer Portfolio 
             </div>
           </div>
 
@@ -56,10 +56,7 @@ const Navigation = () => {
                 {item.label}
               </button>
             ))}
-            <Button variant="download" size="sm">
-              <Download className="w-4 h-4" />
-              Resume
-            </Button>
+           
           </div>
 
           {/* Mobile Menu Button */}

@@ -24,10 +24,10 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6 fade-in">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-tech bg-clip-text text-transparent">
-          DevOps Engineer
+          DevOps Engineer | Cloud Infrastructure Specialist
         </h1>
         <h2 className="text-2xl md:text-3xl text-muted-foreground mb-4">
-          [Your Name]
+          DANIEL BASAZINEW
         </h2>
         <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
           I'm a DevOps Engineer with a passion for automation, scalable infrastructure, 
@@ -35,28 +35,21 @@ const Hero = () => {
         </p>
         
         {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-          <Button variant="hero" size="lg" className="group">
-            <Download className="w-5 h-5 group-hover:animate-bounce" />
-            Download Resume
-          </Button>
-          <Button variant="outline" size="lg">
-            View My Work
-          </Button>
-        </div>
+     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+  <a href="/DANIEL_BASAZINEW_CV.pdf" download="DANIEL_BASAZINEW_CV.pdf">
+  <Button variant="download" size="sm" className="w-full">
+    <Download className="w-4 h-4" />
+    Download Resume
+  </Button>
+</a>
+
+</div>
+
 
         {/* Social Links */}
         <div className="flex justify-center gap-6">
           <a 
-            href="https://github.com" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="p-3 rounded-full bg-card/50 hover:bg-card card-hover border border-border"
-          >
-            <Github className="w-6 h-6" />
-          </a>
-          <a 
-            href="https://linkedin.com" 
+            href="https://www.linkedin.com/in/daniel-basazinew-14b872107/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-card/50 hover:bg-card card-hover border border-border"
@@ -64,7 +57,7 @@ const Hero = () => {
             <Linkedin className="w-6 h-6" />
           </a>
           <a 
-            href="mailto:your.email@example.com"
+            href="mailto:danielbasazinew5@gmail.com"
             className="p-3 rounded-full bg-card/50 hover:bg-card card-hover border border-border"
           >
             <Mail className="w-6 h-6" />

@@ -6,28 +6,21 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       label: "Email",
-      value: "your.email@example.com",
-      href: "mailto:your.email@example.com",
+      value: "danielbasazinew5@gmail.com",
+      href: "mailto:danielbasazinew5@gmail.com",
       color: "tech-success"
     },
     {
       icon: <Linkedin className="w-6 h-6" />,
       label: "LinkedIn",
-      value: "linkedin.com/in/yourprofile",
-      href: "https://linkedin.com/in/yourprofile",
+      value: "Daniel Basazinew Linkdin",
+      href: "https://www.linkedin.com/in/daniel-basazinew-14b872107/",
       color: "tech-docker"
-    },
-    {
-      icon: <Github className="w-6 h-6" />,
-      label: "GitHub",
-      value: "github.com/yourusername",
-      href: "https://github.com/yourusername",
-      color: "foreground"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "ADDIS ABABA, ETHIOPIA",
       href: null,
       color: "destructive"
     }
@@ -95,13 +88,13 @@ const Contact = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="hero" size="lg" asChild>
-                <a href="mailto:your.email@example.com">
+                <a href="mailto:danielbasazinew5@gmail.com">
                   <Mail className="w-5 h-5" />
                   Send Message
                 </a>
               </Button>
               <Button variant="outline" size="lg" asChild>
-                <a href="https://calendly.com/yourlink" target="_blank" rel="noopener noreferrer">
+                <a href="https://calendly.com/danielbasazinew5/30min" target="_blank" rel="noopener noreferrer">
                   <Calendar className="w-5 h-5" />
                   Book a Call
                 </a>
@@ -111,13 +104,8 @@ const Contact = () => {
 
           {/* Footer */}
           <div className="text-sm text-muted-foreground">
-            <p>© 2024 [Your Name]. Built with React, TypeScript, and Tailwind CSS.</p>
-            <p className="mt-2">
-              Deployed on AWS with automated CI/CD pipeline • 
-              <a href="https://github.com/yourusername/portfolio" className="text-primary hover:underline ml-1">
-                View Source Code
-              </a>
-            </p>
+            <p>© 2025 Daniel Basazinew</p>
+            
           </div>
         </div>
       </div>

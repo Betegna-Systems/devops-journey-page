@@ -25,10 +25,8 @@ const About = () => {
   ];
 
   const certifications = [
-    "AWS Certified Solutions Architect",
-    "Certified Kubernetes Administrator (CKA)",
-    "HashiCorp Terraform Associate",
-    "Docker Certified Associate"
+    " AWS Certified Cloud Practitioner CLF",
+    "Certified Azure Fundamentals AZ 900",
   ];
 
   return (
@@ -108,7 +106,7 @@ const About = () => {
               </h3>
               <div className="grid grid-cols-3 gap-4 text-center">
                 <div>
-                  <div className="text-2xl font-bold text-primary">500+</div>
+                  <div className="text-2xl font-bold text-primary">100+</div>
                   <div className="text-xs text-muted-foreground">Deployments</div>
                 </div>
                 <div>
@@ -116,7 +114,7 @@ const About = () => {
                   <div className="text-xs text-muted-foreground">Uptime</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-accent">5+</div>
+                  <div className="text-2xl font-bold text-accent">6+</div>
                   <div className="text-xs text-muted-foreground">Years Exp</div>
                 </div>
               </div>

@@ -5,7 +5,7 @@ const Skills = () => {
     {
       title: "Cloud Platforms",
       icon: <Cloud className="w-8 h-8" />,
-      skills: ["AWS", "Azure", "Google Cloud", "DigitalOcean"],
+      skills: ["AWS", "Azure"],
       color: "tech-aws"
     },
     {
@@ -17,7 +17,7 @@ const Skills = () => {
     {
       title: "Infrastructure as Code",
       icon: <Server className="w-8 h-8" />,
-      skills: ["Terraform", "Ansible", "CloudFormation", "Pulumi"],
+      skills: ["Terraform", "Ansible", "CloudFormation"],
       color: "tech-terraform"
     },
     {
@@ -29,7 +29,7 @@ const Skills = () => {
     {
       title: "Monitoring & Logging",
       icon: <Workflow className="w-8 h-8" />,
-      skills: ["Prometheus", "Grafana", "ELK Stack", "Datadog"],
+      skills: ["Prometheus", "Grafana", "ELK Stack", "Cloud Watch"],
       color: "primary"
     },
     {
@@ -47,7 +47,7 @@ const Skills = () => {
     {
       title: "Scripting & Programming",
       icon: <Terminal className="w-8 h-8" />,
-      skills: ["Python", "Bash", "PowerShell", "Go"],
+      skills: ["Python", "Bash", "PowerShell"],
       color: "tech-python"
     }
   ];
