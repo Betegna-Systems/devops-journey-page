@@ -96,6 +96,7 @@ const About = () => {
                     {highlight.description}
                   </p>
                 </div>
+                
               ))}
             </div>
 
