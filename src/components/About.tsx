@@ -1,32 +1,45 @@
-import { Award, BookOpen, Target, Users } from "lucide-react";
+import { Award, BookOpen, Target, Users, Cloud, Server } from "lucide-react";
 
 const About = () => {
   const highlights = [
     {
       icon: <Target className="w-6 h-6" />,
       title: "Mission-Driven",
-      description: "Passionate about building reliable, scalable infrastructure that empowers teams to deliver value faster."
+      description: "Dedicated to designing scalable, secure, and automated infrastructure that accelerates business outcomes."
     },
     {
       icon: <Users className="w-6 h-6" />,
-      title: "Collaborative",
-      description: "Strong believer in DevOps culture, bridging the gap between development and operations teams."
+      title: "Collaborative Leader",
+      description: "Experienced in mentoring engineers and fostering DevOps culture across cross-functional teams."
     },
     {
       icon: <BookOpen className="w-6 h-6" />,
       title: "Continuous Learning",
-      description: "Always staying up-to-date with the latest cloud technologies and industry best practices."
+      description: "Actively exploring emerging technologies like Kubernetes, observability stacks, and cloud-native security."
     },
     {
       icon: <Award className="w-6 h-6" />,
       title: "Results-Focused",
-      description: "Proven track record of improving deployment efficiency, system reliability, and security posture."
+      description: "Proven record of improving deployment speed, system reliability, and reducing operational costs."
+    },
+    {
+      icon: <Cloud className="w-6 h-6" />,
+      title: "Cloud Expertise",
+      description: "Hands-on with AWS, Azure, and Hetzner Cloud — architecting hybrid and multi-cloud environments."
+    },
+    {
+      icon: <Server className="w-6 h-6" />,
+      title: "Infrastructure as Code",
+      description: "Automation-first mindset using Terraform, Ansible, and CI/CD pipelines to ensure reproducibility."
     }
   ];
 
   const certifications = [
-    " AWS Certified Cloud Practitioner CLF",
-    "Certified Azure Fundamentals AZ 900",
+    "AWS Certified Cloud Practitioner CLF",
+    "Microsoft Certified: Azure Fundamentals AZ-900",
+    "Certification of Cyber Security Awareness",
+    "Certification of General Data Protection Regulation (GDPR)",
+    "Certification of Communication"
   ];
 
   return (
@@ -40,21 +53,22 @@ const About = () => {
             </h2>
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
-                I'm a passionate DevOps Engineer with over 5 years of experience in designing, 
-                implementing, and maintaining cloud-native infrastructure solutions. My journey 
-                started with system administration and evolved into a love for automation and 
-                cloud technologies.
+                I'm a Senior DevOps Engineer and Cloud Infrastructure Specialist with over 6 years of experience 
+                architecting and maintaining mission-critical systems. My career spans enterprise telecom, aviation, 
+                fintech, and SaaS platforms — where I've consistently delivered secure, scalable, and automated solutions.
               </p>
               <p>
-                I specialize in building robust CI/CD pipelines, containerized applications, 
-                and infrastructure as code. My approach combines technical excellence with 
-                business understanding, ensuring that every solution not only works but also 
-                drives measurable value.
+                I specialize in CI/CD pipelines, container orchestration, and infrastructure as code. From building 
+                resilient Kubernetes clusters to optimizing PostgreSQL databases and implementing observability stacks, 
+                I thrive on solving complex infrastructure challenges with clarity and precision.
               </p>
               <p>
-                When I'm not optimizing deployment pipelines or troubleshooting production 
-                issues, you'll find me contributing to open-source projects, learning about 
-                emerging technologies, or sharing knowledge with the DevOps community.
+                Beyond technical delivery, I lead teams, author runbooks, and drive postmortems to strengthen resilience. 
+                I believe DevOps is not just tooling, but a culture of collaboration, transparency, and continuous improvement.
+              </p>
+              <p>
+                Outside of work, I enjoy contributing to open-source projects, refining frontend UX for accessibility, 
+                and sharing knowledge with the global DevOps community.
               </p>
             </div>
 
@@ -96,7 +110,6 @@ const About = () => {
                     {highlight.description}
                   </p>
                 </div>
-                
               ))}
             </div>
 

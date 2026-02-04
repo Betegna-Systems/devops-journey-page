@@ -36,7 +36,7 @@ const Hero = () => {
         
         {/* CTA Buttons */}
      <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-  <a href="/DANIEL_BASAZINEW_CV.pdf" download="DANIEL_BASAZINEW_CV.pdf">
+  <a href="/DANIEL_BASAZINEW_CV.pdf" download="Daniel-Basazinew-Haile-Resume.pdf">
   <Button variant="download" size="sm" className="w-full">
     <Download className="w-4 h-4" />
     Download Resume
